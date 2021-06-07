@@ -1,0 +1,26 @@
+{
+  "name": "veteran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+"dependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "truffle-plugin-verify": "^0.5.7"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mochawesome": "^6.2.2",
+    "solidity-coverage": "^0.7.16"
+  }
+}
